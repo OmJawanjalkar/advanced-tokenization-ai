@@ -135,7 +135,7 @@ tokener --n-train 1000 --vocab-size 10000
 | ⚡ [`uv`](https://docs.astral.sh/uv/) | Fast package management & `tokener` CLI entry point |
 
 
-## 🙋 Discussion questions (for the classroom)
+## 🙋 Discussion questions
 
 1. Your context window is 4,096 tokens — quantify how much more medical text fits with the domain tokenizer vs. `gpt2`.
 2. When would a *smaller* vocabulary be the right choice despite higher fertility?
@@ -149,9 +149,3 @@ tokener --n-train 1000 --vocab-size 10000
 - Hugging Face [`tokenizers` quick tour](https://huggingface.co/docs/tokenizers/quicktour)
 
 ---
-
-<div align="center">
-
-Built for teaching 🧑‍🏫 · PRs and issues welcome 🙌
-
-</div>
