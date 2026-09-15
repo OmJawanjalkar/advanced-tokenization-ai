@@ -19,7 +19,7 @@ from dataclasses import dataclass
 from datasets import load_dataset
 from huggingface_hub import hf_hub_download, list_repo_files
 from tokenizers import Tokenizer, pre_tokenizers
-from tokenizers.decoders import ByteLevel as ByteLevelDecoder
+from tokenizers.decoders import ByteLevel as ByteLevelDecoder   
 from tokenizers.models import BPE
 from tokenizers.pre_tokenizers import ByteLevel
 from tokenizers.trainers import BpeTrainer
